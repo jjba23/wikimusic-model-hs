@@ -1,8 +1,0 @@
-source-repository-package
-  type: git
-  location: https://gitlab.com/jjba-projects/keuringsdienst.git
-  tag: 7dc3284585d430241408ab551af773888a36d8fb
-  --sha256: 1LESoe/LxATAMRJncsVMxJuHGqf0Eo/9jdNijRcNxHo=
-
-packages: .
-    

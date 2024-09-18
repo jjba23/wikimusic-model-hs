@@ -25,16 +25,14 @@
               };
               shell.buildInputs = with pkgs; [
                 gnumake
-                simple-http-server
-                minify
                 haskell-language-server
-                watchexec
                 cachix
                 ormolu
                 nixfmt
                 statix
                 deadnix
                 jq
+                stack
                 awscli2
               ];
             };
@@ -47,7 +45,8 @@
         flake = pkgs.wikimusicModelHSProject.flake { };
       in flake // {
         legacyPackages = pkgs;
-        packages.default = flake.packages."wikimusic-model-hs:lib:wikimusic-model-hs";
+        packages.default =
+          flake.packages."wikimusic-model-hs:lib:wikimusic-model-hs";
       });
 
   nixConfig = {
