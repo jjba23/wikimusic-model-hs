@@ -1,7 +1,7 @@
 cabal-version: 1.12
 
 name:           wikimusic-model-hs
-version:        1.2.0.1
+version:        1.2.0.2
 description:    Please see the README at <https://github.com/jjba23/wikimusic-model-hs>
 homepage:       https://github.com/jjba23/wikimusic-model-hs
 bug-reports:    https://github.com/jjba23/wikimusic-model-hs/-/issues

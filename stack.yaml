@@ -17,8 +17,7 @@
 #
 # resolver: ./custom-snapshot.yaml
 # resolver: https://example.com/snapshots/2023-01-01.yaml
-resolver:
-  url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/22/34.yaml
+resolver: lts-22.34
 
 # User packages to be built.
 # Various formats can be used as shown in the example below.
@@ -37,7 +36,7 @@ packages:
 #
 extra-deps:
   - git: https://github.com/jjba23/keuringsdienst.git
-    commit: 51046fb622c523f837a49b4c2b37ea1b39e04317
+    commit: 77029fdec26c797aed0e4cc85281699924a042c6
   - tomland-1.3.3.3@sha256:877635f30fc7eeebc7b79283baeec1b7904365973cc3fd98c86f9d147eeef575,9147
   - validation-selective-0.2.0.0@sha256:cc847f1a110e3b1bd437a5356f115881b61cafcb11781b570b180efd88bf0907,3917
 #
